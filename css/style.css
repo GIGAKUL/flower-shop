@@ -142,6 +142,7 @@ header {
   text-decoration-line: underline;
   font-family: "Poppins", sans-serif;
   margin-top: 32px;
+  width: 15%;
 }
 
 /* -------------End Of Featured Styles ------------- */
@@ -187,9 +188,9 @@ header {
 
 /* -------------Sale Styles ------------- */
 
-.sale{
-    background: rgba(229, 84, 115, 0.05);
-    padding: 100px 0;
+.sale {
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
 }
 .sale-row {
   display: flex;
@@ -203,39 +204,77 @@ header {
   font-size: 40px;
   font-weight: 800;
 }
-.sale-span{
-    color: #E55473;
+.sale-span {
+  color: #e55473;
 }
 .sale-col p {
-width: 594px;
-color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-top: 24px;
-margin-bottom: 32px;
+  width: 594px;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
 
 /* -------------End Of Sale Styles ------------- */
 
 /* -------------Instagram Styles ------------- */
 
-.Instagram{
-    padding: 0 0 128px 0;
+.Instagram {
+  padding: 128px 0 128px 0;
 }
 
 /* -------------End of Instagram Styles ------------- */
-.Latest-deals{
-    padding: 0 0 128px 0;
-    margin: 0 240px;
+.Latest-deals {
+  padding: 0 0 128px 0;
+  margin: 0 240px;
 }
-.latest-deals-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url('../image/Rectangle\ 9.png');
-    background-size: 1440px;
-    height: 449px;
-    border-radius: 8px;
+.latest-deals-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../image/Rectangle\ 9.png");
+  background-size: 1440px;
+  height: 449px;
+  border-radius: 8px;
+}
+.latest-deals-row {
+  text-align: center;
+}
+.latest-deals-row h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.latest-deals-row em {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.em2{
+    margin-top: 16px;
+    display: block;
+}
+.subscribe input {
+  color: rgba(39, 39, 39, 0.6);
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  padding: 22px 22px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+}
+.subscribe {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
