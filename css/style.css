@@ -145,6 +145,7 @@ header {
 }
 
 /* -------------End Of Featured Styles ------------- */
+
 .service {
   display: flex;
   align-items: center;
@@ -180,4 +181,15 @@ header {
   font-weight: 600;
   line-height: 35px;
   line-height: 35px;
+}
+
+/* -------------End Of Featured Styles ------------- */
+
+/* -------------Sale Styles ------------- */
+
+.sale-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
