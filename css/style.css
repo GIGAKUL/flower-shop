@@ -26,13 +26,13 @@ header {
   padding: 0 240px;
   padding-top: 50px;
 }
-.header-row {
+.banner-row {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 97px;
 }
-.header-col h1 {
+.banner-col h1 {
   width: 708px;
   color: #272727;
   font-family: Lato;
@@ -41,7 +41,7 @@ header {
   font-weight: 800;
   line-height: normal;
 }
-.header-col p {
+.banner-col p {
   width: 634px;
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
