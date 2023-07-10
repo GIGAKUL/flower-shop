@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* ------------- Shared Styles ------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Lato", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ------------- Header Styles ------------- */
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+  padding: 0 240px;
+  padding-top: 50px;
+}
+.header-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 97px;
+}
+.header-col h1 {
+  width: 708px;
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.header-col p {
+  width: 634px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 32px 0;
+}
+.btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+}
