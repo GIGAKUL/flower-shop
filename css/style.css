@@ -60,14 +60,14 @@ header {
 }
 
 /* ------------- End Of Header Styles ------------- */
-.featured{
+.featured {
   padding: 0 240px;
   margin-top: 178px;
 }
-.featured-row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.featured-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .featured-title h2 {
@@ -77,13 +77,47 @@ header {
   font-weight: 800;
 }
 .featured-title p {
-    margin: 24 px 0px 48px 0px;
-    width: 594px;
-    flex-shrink: 0;
-    color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
+  margin: 24px 0px 48px 0px;
+  width: 594px;
+  flex-shrink: 0;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+.featured-row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.featured-col {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+}
+.featured-row2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tulip {
+  background: rgba(167, 33, 98, 0.15);
+}
+.daisy {
+  background: rgba(5, 151, 160, 0.15);
+}
+.Tulipa {
+  background: rgba(71, 125, 17, 0.15);
+/* }
+.featured-flowers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+} */
+.featured-row2-container{
+    added
 }
