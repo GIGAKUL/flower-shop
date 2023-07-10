@@ -217,8 +217,25 @@ margin-top: 24px;
 margin-bottom: 32px;
 }
 
-/* -------------Sale Styles ------------- */
+/* -------------End Of Sale Styles ------------- */
+
+/* -------------Instagram Styles ------------- */
 
 .Instagram{
-    padding: 128px 0px 128px 0px;
+    padding: 0 0 128px 0;
+}
+
+/* -------------End of Instagram Styles ------------- */
+.Latest-deals{
+    padding: 0 0 128px 0;
+    margin: 0 240px;
+}
+.latest-deals-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../image/Rectangle\ 9.png');
+    background-size: 1440px;
+    height: 449px;
+    border-radius: 8px;
 }
