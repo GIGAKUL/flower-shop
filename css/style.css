@@ -255,9 +255,9 @@ header {
   font-weight: 400;
   line-height: 30px;
 }
-.em2{
-    margin-top: 16px;
-    display: block;
+.em2 {
+  margin-top: 16px;
+  display: block;
 }
 .subscribe input {
   color: rgba(39, 39, 39, 0.6);
@@ -277,4 +277,38 @@ header {
   align-items: center;
   justify-content: center;
   gap: 16px;
+}
+
+/* --------- Footer section styles --------- */
+footer {
+  text-align: center;
+  background-color: #111010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer h2 {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-container {
+  padding: 128px 0;
+}
+footer em {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+footer p {
+  width: 625px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
