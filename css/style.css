@@ -128,9 +128,9 @@ header {
 .Tulipa img {
   padding: 67px 75px 0 75px;
 }
-.featured-col3{
-    display: flex;
-    justify-content: space-around;
+.featured-col3 {
+  display: flex;
+  justify-content: space-around;
 }
 .featured-col3 strong {
   color: #272727;
@@ -145,5 +145,23 @@ header {
 }
 
 /* -------------End Of Featured Styles ------------- */
-
-
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-row {
+  width: 1440px;
+  height: 320px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  gap: 100px;
+  padding: 86px 175px;
+}
+.service-col{
+    text-align: center;
+}
