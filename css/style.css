@@ -83,8 +83,7 @@ header {
 }
 .featured-title p {
   margin: 24px 0px 48px 0px;
-  width: 594px;
-  flex-shrink: 0;
+  width: 742px;
   color: rgba(39, 39, 39, 0.6);
   font-family: Lato;
   font-size: 18px;
@@ -135,10 +134,9 @@ header {
 .featured-col3 strong {
   color: #272727;
   text-align: center;
-  font-size: 24px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 700;
-  line-height: 35px;
   text-decoration-line: underline;
   font-family: "Poppins", sans-serif;
   margin-top: 32px;
