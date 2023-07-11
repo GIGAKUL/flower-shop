@@ -311,6 +311,25 @@ footer p {
   margin-bottom: 32px;
 }
 
-table{
-  color: #11101000;
+/* ------------ End Of Footer ----------- */
+
+/* ------------Blogs styles ----------- */
+.blog-heading{
+  text-align: center;
+}
+.blog-heading p{
+
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  color: #999A99;
+  letter-spacing: 1px;
+}
+
+.blog-heading h2 {
+  margin-top: 20px;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
 }
