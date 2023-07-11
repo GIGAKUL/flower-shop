@@ -280,6 +280,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-repeat: no-repeat;
   background: url("../image/flowers.jpg");
   background-position: bottom;
   background-size: 1440px;
