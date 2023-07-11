@@ -233,7 +233,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("../image/Rectangle\ 9.png");
+  background: url("../image/flowers.jpg");
+  background-position: bottom;
   background-size: 1440px;
   height: 449px;
   border-radius: 8px;
@@ -263,11 +264,14 @@ header {
   height: 64px;
   border-radius: 8px;
   padding: 22px 22px;
-  background: #fff;
+  background: #fffc;
   font-size: 16px;
   font-weight: 400;
   outline: none;
   border: none;
+}
+.btn3{
+  background-color: #e55473e3;
 }
 .subscribe {
   margin-top: 48px;
