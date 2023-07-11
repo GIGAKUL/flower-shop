@@ -19,20 +19,62 @@ button {
 body {
   font-family: "Poppins", sans-serif;
 }
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
 .container {
   padding: 0 240px;
 }
+/* ------------- NavBar Styles ------------- */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 40px 0;
+}
+.logo-span {
+  color: #e55473;
+}
+.logo h2 {
+  color: #272727;
+  font-size: 50px;
+  font-weight: 800;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.underline-anchor .underline {
+  width: 53px;
+  height: 3px;
+  background-color: #272727;
+  margin-left: 53px;
+}
+.nav-container a {
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #272727;
+}
+
 /* ------------- Header Styles ------------- */
 header {
   background-color: rgba(229, 84, 115, 0.1);
   padding: 0 240px;
-  padding-top: 50px;
 }
 .banner-row {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 97px;
+  margin-top: 50px;
 }
 .banner-col h1 {
   width: 708px;
@@ -270,7 +312,7 @@ header {
   outline: none;
   border: none;
 }
-.btn3{
+.btn3 {
   background-color: #e55473e3;
 }
 .subscribe {
@@ -290,7 +332,7 @@ footer {
   align-items: center;
 }
 footer h2 {
-  color: #e55473;
+  color: #ffffff;
   font-size: 48px;
   font-weight: 800;
 }
@@ -335,8 +377,7 @@ footer p {
   text-align: center;
   font-size: 40px;
   font-weight: 800;
-  margin-bottom: 70px ;
-
+  margin-bottom: 70px;
 }
 .blog-content {
   display: flex;
@@ -345,11 +386,11 @@ footer p {
   justify-content: center;
 }
 .blog-post {
-    width: 388px;
-    height: 470px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0 20px 68px 20px;
+  width: 388px;
+  height: 470px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 20px 68px 20px;
 }
 .blog-post-img {
   height: 250px;
@@ -375,8 +416,8 @@ footer p {
 .span-post {
   color: #a9a9a9;
 }
-.catagories{
-  padding-top: 24PX;
+.catagories {
+  padding-top: 24px;
 }
 .catagories em {
   color: #fe9ee5;
@@ -387,7 +428,6 @@ footer p {
   text-decoration: underline;
   letter-spacing: 2px;
   font-family: "Poppins", sans-serif;
-
 }
 .post-head h3 {
   font-size: 25px;
@@ -402,29 +442,28 @@ footer p {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.post2{
+.post2 {
   display: flex;
   align-items: end;
   justify-content: center;
 }
 
-.post2 h3{
+.post2 h3 {
   color: white;
 }
-.post2 p{
+.post2 p {
   color: white;
 }
-.post-btn{
+.post-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 50px 0 128px 0px;
 }
-.btn4{
+.btn4 {
   font-size: 15px;
   letter-spacing: 2px;
-  background-color: #FBEEF3;
+  background-color: #fbeef3;
   color: black;
   border-radius: 40px;
-  
 }
