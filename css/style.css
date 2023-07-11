@@ -50,7 +50,12 @@ a {
   justify-content: center;
   align-items: center;
 }
+ul li i {
+  font-size: 25px;
+  color: #272727;
+  margin-left: 50px;
 
+}
 .underline-anchor .underline {
   width: 53px;
   height: 3px;
