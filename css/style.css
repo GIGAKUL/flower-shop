@@ -314,22 +314,113 @@ footer p {
 /* ------------ End Of Footer ----------- */
 
 /* ------------Blogs styles ----------- */
-.blog-heading{
+.blog-heading {
   text-align: center;
 }
-.blog-heading p{
-
+.blog-heading p {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 600;
-  color: #999A99;
+  color: #999a99;
   letter-spacing: 1px;
 }
 
 .blog-heading h2 {
-  margin-top: 20px;
+  margin-top: 15px;
   color: #272727;
   text-align: center;
   font-size: 40px;
   font-weight: 800;
+  margin-bottom: 70px ;
+
+}
+.blog-content {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+}
+.blog-post {
+    width: 388px;
+    height: 470px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px 68px 20px;
+}
+.blog-post-img {
+  height: 250px;
+  background-image: url("../image/post1.jpg");
+  background-size: 400px;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+.post2 {
+  background-image: url("../image/post2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-img3 {
+  background-size: cover;
+  background-image: url("../image/post3.jpg");
+  background-repeat: no-repeat;
+}
+.span-post {
+  color: #a9a9a9;
+}
+.catagories{
+  padding-top: 24PX;
+}
+.catagories em {
+  color: #fe9ee5;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bolder;
+  font-style: normal;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+
+}
+.post-head h3 {
+  font-size: 25px;
+  font-weight: 700;
+  font-style: italic;
+  margin: 16px;
+  letter-spacing: 1px;
+}
+.post-date p {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.post2{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.post2 h3{
+  color: white;
+}
+.post2 p{
+  color: white;
+}
+.post-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 128px 0px;
+}
+.btn4{
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color: #FBEEF3;
+  color: black;
+  border-radius: 40px;
+  
 }
